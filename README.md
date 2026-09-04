@@ -1,4 +1,4 @@
-# LoL OBS Tracker Overlay - v3
+# LoL OBS Tracker Overlay
 
 Versão básica do overlay para OBS.
 
