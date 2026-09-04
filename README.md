@@ -76,3 +76,18 @@ RIOT_REGION=americas
 PORT=3000
 CACHE_TTL_SECONDS=60
 ```
+## Adicionar e remover informações
+
+Para adicionar/remover KDA, tempo da partida, nome do campeão, etc.
+
+Procure no arquivo `app.js` por `row.append(...` e adicione os dados desejados.
+
+Alguns exemplos são:
+
+- Imagem do campeão jogado: championIcon
+- Nome do campeão jogado: championName
+- Kill/Death/Assists: kda
+- Barra com indicação de V/D: resultBar
+- Tempo de duração da partida: duration
+
+Outros dados podem ser encontrados na [Documentação oficial](https://developer.riotgames.com/apis/?utm_source=chatgpt.com#match-v5/GET_getMatchIdsByPUUID)
