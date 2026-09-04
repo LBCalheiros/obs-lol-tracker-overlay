@@ -2,7 +2,13 @@
 
 Versão básica do overlay para OBS.
 
-## Rodar
+## Hospedagem
+
+O backend da minha versão do projeto foi hospedado no **Render**.
+
+O Render executa o servidor Node.js e disponibiliza o overlay através de uma URL pública, permitindo que ele seja usado como fonte de navegador no OBS sem precisar manter o servidor rodando localmente.
+
+## Rodar localmente
 
 ```bash
 npm install
