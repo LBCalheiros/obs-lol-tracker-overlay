@@ -2,6 +2,19 @@
 
 Versão básica do overlay para OBS.
 
+## Como obter uma Riot API Key
+
+Para utilizar o projeto, é necessário possuir uma chave de API da Riot Games.
+
+1. Acesse o portal oficial de desenvolvedores da Riot Games:
+   https://developer.riotgames.com/
+
+2. Faça login com sua conta Riot.
+
+3. No painel, procure pela seção **Development API Key**.
+
+4. Gere ou copie sua chave de desenvolvimento.
+
 ## Hospedagem
 
 O backend da minha versão do projeto foi hospedado no **Render**.
