@@ -146,6 +146,6 @@ const publicPath = path.join(__dirname, "../public");
 app.use(express.static(publicPath));
 
 // Iniciar servidor
-app.listen(PORT, () => {
-  console.log(`Overlay rodando em http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Overlay rodando na porta ${PORT}`);
 });

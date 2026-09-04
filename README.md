@@ -23,7 +23,7 @@ http://localhost:3000
 
 Sugestão inicial:
 
-- largura: 700
+- largura: 600
 - altura: 650
 - FPS: 30
 
