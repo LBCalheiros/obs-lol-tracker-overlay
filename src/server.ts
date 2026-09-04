@@ -56,7 +56,7 @@ async function buildOverlayData() {
 
   const solo = league.find((entry) => entry.queueType === "RANKED_SOLO_5x5");
 
-  // 3. Buscar IDs das últimas 10 partidas
+  // 3. Buscar IDs das últimas 8 partidas
   const matchIds = await getMatchIds(account.puuid);
 
   // 4. Buscar detalhes das partidas

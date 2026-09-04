@@ -11,12 +11,8 @@ body {
   color: #ffffff;
 }
 
-body {
-  min-width: 600px;
-}
-
 .overlay {
-  width: 600px;
+  max-width: 600px;
   padding: 18px;
 }
 
@@ -25,6 +21,7 @@ body {
   background: rgba(10, 12, 18, 0.92);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 14px;
+  width: fit-content;
 }
 
 .rank-card {
@@ -98,7 +95,7 @@ body {
 .match-list {
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 20px;
   width: fit-content;
 }
 

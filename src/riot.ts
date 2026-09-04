@@ -86,7 +86,7 @@ export async function getLeagueByPuuid(puuid: string): Promise<LeagueEntry[]> {
 
 export async function getMatchIds(puuid: string): Promise<string[]> {
   return riotFetch<string[]>(
-    `${regionalHost}/lol/match/v5/matches/by-puuid/${encodeURIComponent(puuid)}/ids?start=0&count=10`,
+    `${regionalHost}/lol/match/v5/matches/by-puuid/${encodeURIComponent(puuid)}/ids?start=0&count=8`,
   );
 }
 

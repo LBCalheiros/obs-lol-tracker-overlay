@@ -74,7 +74,7 @@ try {
   console.log("3. MATCH-V5");
 
   const matchIds = await riotRequest(
-    `https://${region}.api.riotgames.com/lol/match/v5/matches/by-puuid/${encodeURIComponent(account.puuid)}/ids?start=0&count=10`,
+    `https://${region}.api.riotgames.com/lol/match/v5/matches/by-puuid/${encodeURIComponent(account.puuid)}/ids?start=0&count=8`,
   );
 
   console.log(`Partidas encontradas: ${matchIds.length}`);
