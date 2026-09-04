@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoL OBS Overlay</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="overlay">
+    <section class="rank-card">
+      <div class="rank-icon-wrap">
+        <img id="rank-icon" class="rank-icon" alt="Elo">
+      </div>
+
+      <div class="rank-info">
+        <div class="player-name" id="player-name">Carregando...</div>
+        <div class="rank-line">
+          <span id="rank-tier">--</span>
+          <span id="rank-division">--</span>
+          <span class="dot">•</span>
+          <span id="rank-lp">-- LP</span>
+        </div>
+        <div class="record">
+          <span id="wins">-- W</span>
+          <span>•</span>
+          <span id="losses">-- L</span>
+          <span>•</span>
+          <span id="winrate">--% WR</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="history-card">
+      <div class="section-title">ÚLTIMAS PARTIDAS</div>
+      <div id="match-list" class="match-list"></div>
+    </section>
+
+    <div id="error" class="error hidden"></div>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
